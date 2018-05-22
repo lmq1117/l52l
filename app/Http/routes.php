@@ -11,6 +11,11 @@
 |
 */
 
+Route::match(['get','post'],'/',function (){
+    $data = [];
+
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
